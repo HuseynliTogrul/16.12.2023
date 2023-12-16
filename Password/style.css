@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #001033;
+}
+
+#input-eye{
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input{
+    background: #151560db;
+    padding: 15px 20px;
+    width: 25%;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    color: white;
+    border: 1px solid white;
+}
+
+.input-icon{
+    color: white;
+    position: absolute;
+    right: 39%;
+}

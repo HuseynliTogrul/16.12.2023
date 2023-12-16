@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider-image {
+    height: 400px;
+    width: 600px;
+    background-image: url("images/baku1.jpg");
+    background-size: cover;
+    background-position: 100%;
+    border-radius: 15px;
+  }
+  
+  button {
+    background: inherit;
+    color: white;
+    /* border: 2px solid #fff; */
+    padding: 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: all 300ms linear;
+  }
+/*   
+  button:hover {
+    color: #fff;
+    background-color: #000;
+  }
+   */
